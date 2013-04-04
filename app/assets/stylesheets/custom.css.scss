@@ -164,6 +164,11 @@ input, textarea, select, .uneditable-input {
 	@include box-sizing;
 }
 
+input[type="text"], input[type="password"] {
+	height: auto;
+}
+
+
 #error_explanation {
 	color: #f00;
 	ul {
