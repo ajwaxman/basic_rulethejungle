@@ -32,7 +32,7 @@ describe Micropost do
 
 	describe "with blank content" do 
 		before { @micropost.content = " " }
-		it { should_not be_valid }
+			it { should_not be_valid }
 	end
 
 	describe "with content that is too long" do 
