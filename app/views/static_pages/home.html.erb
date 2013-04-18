@@ -18,17 +18,25 @@
 	</div>
 <% else %>
 
-	<div class ="center hero-unit">
-		<h1>Welcome to the Sample App</h1>
-		<p>
-			This is the home page for the 
-			<a href="https://railstutorial.org/">Ruby on Rails Tutorial</a>
-			sample application!
-		</p>
+	<% @hide_header = true %>
+		<body class="base_table">
+				<div class="section_background table_cell">
+					<%= image_tag 'Landing_Page_Logo2.png', alt: 'Rule the Jungle Logo', size: "200x200" %>
+					<h1 id="title_font">Rule the Jungle</h1>
+					<p class= "home_body_text">
+						We set up unique experiences in NYC while removing the<br> hassle and legwork of planning the perfect date
+					</p><br>
+					<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+				</div>
+		</body>	
+	
+<!-- 	<div class ="center hero-unit home_main">
+		<h1 id="title-font">Rule the Jungle</h1><br>
+		<p class= "body-text">
+			We set up unique experiences in NYC while removing the<br> hassle and legwork of planning the perfect date
+		</p><br>
 
 		<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
-	</div>
-
-	<%= link_to image_tag("rails.png", alt: "Rails"), 'https://rubyonrails.org' %> 
+	</div>  -->
 
 <% end %>

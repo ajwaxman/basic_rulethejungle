@@ -1,6 +1,11 @@
 @import "bootstrap";
 
 $lightGray: #999;
+$orange: #F94D24;
+$orange_red: #BD0E00;
+$orange_red2: #FD3B13;
+$red_orange: #970000;
+$lightorange: #FFB199;
 
 @mixin box-sizing {
 	-moz-box-sizing: border-box;
@@ -17,6 +22,11 @@ html {
 
 body {
 	padding-top: 60px;
+	background-color: white;
+}
+
+#landing_page {
+	padding-top:0;
 }
 
 section {
@@ -32,6 +42,12 @@ textarea {
 	h1 {
 		margin-bottom: 10px;
 	}
+}
+
+#title_font {
+	font-family: "futura-pt", sans-serif;
+	color: white;
+	font-size: 6em;
 }
 
 
@@ -65,26 +81,83 @@ h2 {
 }
 
 p {
+	font-family: "freight-sans-pro", sans-serif;
+	font-style: normal;
+	font-weight: 300;
 	font-size: 1.1em;
 	line-height: 1.7em;
 }
 
-#logo {
+.logo {
+	font-family: "futura-pt", sans-serif;
 	float: left;
 	margin-right: 10px;
 	font-size: 1.7em;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	padding-top: 9px;
+	color: white;
+	padding-top: 4px;
 	font-weight: bold;
 	line-height: 1;
 	&:hover {
-		color: blue;
+		color: $orange_red;
 		text-decoration: none;
 }
+
+.logo-text {
+	padding-top: 15px;
 }
 
+}
+
+/* Home Screen */
+
+.home_main {
+	background-color: $orange;
+}
+
+.hero-unit p {
+	color: white;
+	font-size: 1.6em;
+}
+
+.base_table {
+	display: table;
+	width: 100%;
+	background-color: $orange;
+	padding: 0;
+}
+
+.section_background { 
+	margin: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+.table_cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.home_body_text {
+	font-family: "freight-sans-pro", sans-serif;
+	// font-weight: bold;
+	color: white;
+	font-size: 1.7em;
+}
+
+
+/* Header */
+
+.navbar-inner {
+	background-color: $orange_red2;
+	background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
 
 
 /* footer */
