@@ -1,0 +1,19 @@
+<%= form_for(@micropost) do |f| %>
+	<!-- This should render _error_messages, but kept saying it couldn't find the partial -->
+	<% if @micropost.errors.any? %>
+			<div id="error_explanation">
+			<div class="alert alert-error">
+				The form contains <%= pluralize(@micropost.errors.count, "error") %>.
+			</div>
+			<ul>
+				<% @micropost.errors.full_messages.each do |msg| %>
+					<li>* <%= msg %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+	<div class="field">
+		<%= f.text_area :content, placeholder: "Compose new micropost..." %>
+	</div>
+		<%= f.submit "Post", class: "btn btn-large btn-primary" %>
+<% end %>
