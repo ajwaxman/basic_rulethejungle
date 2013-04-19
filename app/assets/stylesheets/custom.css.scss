@@ -350,7 +350,7 @@ aside {
 @media screen and (max-width: 320px) {
 
 	.mobile_landing {
-		height: 350px;
+		height: 400px;
 		width: 100%;
 		background-color: $orange;
 	}
@@ -362,11 +362,12 @@ aside {
 	}
 
 	.mobile_logo {
-		padding-top: 40px;
+		padding-top: 50px;
 	}
 	
 	#title_font {
 		font-size: 2.8em;
+		padding-top: 10px;
 	}
 
 	.home_body_text {
@@ -394,7 +395,7 @@ aside {
 
 	.mobile_circle {
 		position: absolute;
-		top: 325px;
+		top: 375px;
       left:0;
       right:0;
       margin-left:auto;
