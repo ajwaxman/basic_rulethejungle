@@ -20,13 +20,30 @@
 
 	<% @hide_header = true %>
 		<body class="base_table">
-				<div class="section_background table_cell">
+				<%= image_tag 'white_circle2.png', alt: 'Plus Sign', size: "50x50", class: "mobile_circle mobile" %>
+				<div class="section_background table_cell desktop">
 					<%= image_tag 'Landing_Page_Logo2.png', alt: 'Rule the Jungle Logo', size: "200x200" %>
 					<h1 id="title_font">Rule the Jungle</h1>
 					<p class= "home_body_text">
 						We set up unique experiences in NYC while removing the<br> hassle and legwork of planning the perfect date
 					</p><br>
 					<%= link_to "Plan a Date!", "https://www.wf-site.com/microsite/pages/37cdab41d2a7648b", class: "btn btn-large btn-primary" %>
+				</div>
+				<div class="section_background table_cell mobile">
+					<div class="mobile_landing">
+						<%= image_tag 'Landing_Page_Logo2.png', alt: 'Rule the Jungle Logo', size: "125x125", class: "mobile_logo" %>
+						<h1 id="title_font">Rule the Jungle</h1>
+						<%= link_to "Plan a Date!", "https://www.wf-site.com/microsite/pages/37cdab41d2a7648b", class: "btn btn-large btn-primary" %>
+					</div>
+				</div>
+				<div class="section_background table_cell mobile">
+					<div class="mobile_landing_2">
+					<%= image_tag 'martini.png', alt: 'Martini Glass', size: "100x100", class: "mobile martini" %>
+						<p class= "home_body_text">
+						We set up unique experiences in NYC while removing the hassle and legwork of planning the perfect date.
+					</p>
+						<%= link_to "Plan a Date!", "https://www.wf-site.com/microsite/pages/37cdab41d2a7648b", class: "btn btn-large btn-primary" %>
+					</div>
 				</div>
 		</body>	
 
