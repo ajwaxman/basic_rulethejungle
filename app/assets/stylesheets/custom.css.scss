@@ -158,6 +158,13 @@ p {
 	font-size: 1.7em;
 }
 
+.home_body_text_2 {
+	font-family: "freight-sans-pro", sans-serif;
+	// font-weight: bold;
+	color: white;
+	font-size: 1.7em;
+}
+
 
 /* Header */
 
@@ -370,19 +377,16 @@ aside {
 		padding-top: 10px;
 	}
 
-	.home_body_text_2 {
+	.home_body_text {
 		color: $darkgray;
 		font-size: 1.5em;
 		padding: 0px 10%;
 		padding-bottom: 30px;
 	}
 
-	.home_body_text {
-		font-family: "freight-sans-pro", sans-serif;
+	.home_body_text_2 {
 		color: #f2ae9e;
-		font-size: 1.3em;
-		font-weight: 200;
-		padding: 0;
+		font-size: 1.4em;
 	}
 	
 	.mobile {
