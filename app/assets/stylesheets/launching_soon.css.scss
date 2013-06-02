@@ -15,7 +15,7 @@ $darkgray: #343638;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	display: table;
+	display: none;
 }
 
 .coming_soon {
@@ -34,6 +34,10 @@ body {
 	padding: 0;
 }
 
+.coming_soon_outer {
+	display: table;
+	width: 100%;
+}
 
 .coming_soon_div {
 	display: table-cell;
