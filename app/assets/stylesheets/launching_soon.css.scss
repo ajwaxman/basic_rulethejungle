@@ -15,6 +15,7 @@ $darkgray: #343638;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	display: table;
 	display: none;
 }
 
@@ -28,6 +29,7 @@ $darkgray: #343638;
 	font-style: italic;
 	display: none;
 	line-height: 105%;
+	font-size: 90px;
 }
 
 body {
@@ -44,3 +46,13 @@ body {
 	vertical-align: middle;
 	text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+	
+	.coming_soon {
+		font-size: 40px;
+	}
+
+}
+
+
