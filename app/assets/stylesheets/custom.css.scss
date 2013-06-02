@@ -47,7 +47,7 @@ textarea {
 
 #title_font {
 	font-family: "futura-pt", sans-serif;
-	color: white;
+	color: $orange;
 	font-size: 6em;
 }
 
@@ -122,6 +122,10 @@ p {
 
 /* Home Screen */
 
+#homepage {
+	padding-top: 60px;
+}
+
 .home_main {
 	background-color: $orange;
 }
@@ -134,7 +138,7 @@ p {
 .base_table {
 	display: table;
 	width: 100%;
-	background-color: $orange;
+	background-color: blue;
 	padding: 0;
 }
 
@@ -154,7 +158,7 @@ p {
 .home_body_text {
 	font-family: "freight-sans-pro", sans-serif;
 	// font-weight: bold;
-	color: white;
+	color: $orange;
 	font-size: 1.7em;
 }
 
@@ -166,6 +170,30 @@ p {
 	font-size: 1.7em;
 }
 
+.explain_box {
+	float: left;
+	height: 250px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid $orange;
+}
+
+.landing_page_logo {
+	text-align: center;
+}
+
+.center {
+	width: 920px;
+}
+
+.explain_box_center {
+	text-align: center;
+	padding: 0 5px;
+}
+
+#explain_box_1 {
+	background-color: blue;
+}
 
 /* Header */
 
@@ -375,7 +403,7 @@ aside {
 	
 	#title_font {
 		font-size: 2.8em;
-		padding-top: 15px;
+		padding-top: 0;
 	}
 
 	.home_body_text {

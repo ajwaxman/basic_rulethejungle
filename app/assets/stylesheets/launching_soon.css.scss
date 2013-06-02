@@ -1,0 +1,42 @@
+@import "bootstrap";
+
+$lightGray: #999;
+$orange: #F94D24;
+$orange_red: #BD0E00;
+$orange_red2: #FD3B13;
+$red_orange: #970000;
+$lightorange: #FFB199;
+$darkgray: #343638;
+
+.homepage_background {
+	height: 900px;
+	width: 100%;
+	background: url(RTJ_Homepage.jpeg) no-repeat center center;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+}
+
+.coming_soon {
+	padding: 0;
+	margin: 0;
+	font-family: "futura-pt", sans-serif;
+	color: white;
+	font-size: 6em;
+	font-weight: 700;
+	font-style: italic;
+	display: none;
+	line-height: 105%;
+}
+
+body {
+	padding: 0;
+}
+
+
+.coming_soon_div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
